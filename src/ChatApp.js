@@ -5,7 +5,7 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const genAi = new GoogleGenerativeAI("your_api_key");
+const genAi = new GoogleGenerativeAI("AIzaSyC09fXG8iduP7azHLz3j1j3DxHvg84P2Z4");
 const model = genAi.getGenerativeModel({ model: "gemini-1.5-pro" });
 
 function ChatApp() {
